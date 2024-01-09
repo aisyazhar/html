@@ -1,0 +1,24 @@
+.green-text {color: green; visibility: hidden;}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style for each image */
+  .image-container {
+    float: left; /* Float the images to the left */
+    margin: 10px; /* Add margin for spacing between images */
+  }
+
+  .image-container2 {
+    float: left; /* Float the images to the left */
+    margin: 10px; /* Add margin for spacing between images */
+    display: none;
+  }
+
+  .image-container3 {
+    float: left; /* Float the images to the left */
+    margin: 10px; /* Add margin for spacing between images */
+    visibility: hidden;
+  }

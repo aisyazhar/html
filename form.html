@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lab 6</title>
+</head>
+<body>
+    <h3>Application Form</h3>
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" maxlength="20" id="fname" name="fname" placeholder="20 letters only"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" maxlength="20" id="lname" name="lname" placeholder="20 letters only">
+    </form>
+
+    <p>Region</p>
+    <form>
+        <input type="radio" id="html" name="reg" value="Asia">
+        <label for="reg">Asia</label>
+        <input type="radio" id="css" name="reg" value="Europe">
+        <label for="reg">Europe</label>
+        <input type="radio" id="javascript" name="reg" value="North">
+        <label for="reg">North America</label>
+        <input type="radio" id="javascript" name="reg" value="South">
+        <label for="reg">South America</label>
+        <input type="radio" id="javascript" name="reg" value="Africa">
+        <label for="reg">Africa</label>
+    </form>
+
+    <p>Coding Class</p>
+    <form>
+        <input type="checkbox" id="vehicle1" name="js" value="js">
+        <label for="cc"> Javascript</label>
+        <input type="checkbox" id="vehicle2" name="python" value="python">
+        <label for="cc"> Python</label>
+        <input type="checkbox" id="vehicle3" name="html" value="html">
+        <label for="cc"> HTML/CSS</label>
+    </form>
+
+    <br>
+    <label for="cars">Your Coding Experience:</label>
+    <select name="cars" id="cars">
+        <option value="no">None</option>
+        <option value="some">Some</option>
+        <option value="ext">Extensive</option>
+    </select>
+
+    <br><br>
+    <label for="rev">Any other comments for your application</label><br><br>
+    <textarea id="rev" name="w3review" rows="10" cols="40"></textarea>
+</body>
+</html>
